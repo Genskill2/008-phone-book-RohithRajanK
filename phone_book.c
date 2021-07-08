@@ -2,13 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-const char *DB="directory.db";
-
-struct entry0 {
-  char name[20];
-  char phone[20];
-  struct entry0 *next;
-};
 
 typedef struct entry0 entry;
 
